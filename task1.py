@@ -25,3 +25,10 @@ example:
 Enter number:4
 4 8 12 16 20 24 28 32 36 40 44 48
 """
+
+x = input("enter a number")
+x = int(x)
+for i in range(1,13):
+   y = x * i
+   y = int(y)
+   print(y, end=" ")

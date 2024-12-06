@@ -7,6 +7,7 @@ start = time.time()
 x = 0
 for i in range(2000000):
   x = x + 1
+  print(x)
 end = time.time()
 
 elapsedTime = end - start

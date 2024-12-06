@@ -37,3 +37,10 @@ example:
 Enter a number: -4
 Invalid input
 """
+y=1
+x = int(input("enter a number: "))
+if x < 0:
+    print("invalid input")
+for i in range(1,x+1):
+    y = y*i
+print(f"the factorial of {x} is {y}")

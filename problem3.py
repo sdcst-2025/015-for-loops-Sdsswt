@@ -17,3 +17,15 @@ example:
 enter a number: 4
 the sum of the series is 1234
 """
+n = 1.111111111111111111111111111111111111111
+x = int(input("enter a number less than 10: "))
+sum = 0
+
+if x>10:
+    print("enter an integer less than 10")
+
+for i in range(x):
+   y = round(n*(10**i))
+   sum = sum + y
+print(f"The sum of the series is {sum}")
+
